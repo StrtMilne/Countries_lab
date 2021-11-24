@@ -9,6 +9,7 @@ const FavouriteCountries = ({favourites, onCountryClick}) => {
     
     return(
         <div>
+            <h1>Favourites</h1>
             <ul>
                 {favouritesItems}
             </ul>

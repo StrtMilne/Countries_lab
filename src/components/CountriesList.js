@@ -8,6 +8,7 @@ const CountriesList=({countries,onCountryClick, onFavouriteClick})=>{
     })
     return(
         <div>
+            <h1>Countries of the world:</h1>
             <ul>
                 {countriesItems}
             </ul>
